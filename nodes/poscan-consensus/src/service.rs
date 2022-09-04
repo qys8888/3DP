@@ -418,6 +418,8 @@ pub fn new_full(
 									hashes, obj:
 									mp.pre_obj
 								});
+							} else {
+							}
 						} else {
 							thread::sleep(Duration::new(1, 0));
 						}
