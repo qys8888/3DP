@@ -9,7 +9,7 @@ import { hideBin } from "yargs/helpers";
 import fs from "fs";
 
 const argv = yargs(hideBin(process.argv)).argv;
-const interval = argv.interval || 1;
+const interval = argv.interval || 1000;
 const host = argv.host || "localhost";
 const port = argv.port || "9933";
 const do_save = argv.save || false;
